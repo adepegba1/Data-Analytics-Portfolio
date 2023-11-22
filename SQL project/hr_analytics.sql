@@ -107,31 +107,31 @@ from HR_Analytics
 group by Department, PercentSalaryHike
 having PercentSalaryHike < 13;
 
--- 3.calculate the average monthly income of all the employees who worked more than 3yrs who's education background is medical.
+-- 21.calculate the average monthly income of all the employees who worked more than 3yrs who's education background is medical.
 select avg(monthlyincome)
 from HR_Analytics
 where EducationField = 'medical' and TotalWorkingYears > 3;
 
--- 4. Identify the total no of male and female employees under attrition is yes and whose marital status is married and haven't received promotion in the last 2 years.
+-- 22. Identify the total no of male and female employees under attrition is yes and whose marital status is married and haven't received promotion in the last 2 years.
 select gender, count(gender)
 from HR_Analytics
 where Attrition = 'yes' and MaritalStatus = 'married' and YearsSinceLastPromotion = 2
 group by gender;
 
--- 5. Employee with max performance rating but no promotion for 4yrs and above 
+-- 23. Employee with max performance rating but no promotion for 4yrs and above 
 select *
 from HR_Analytics
 where PerformanceRating = (select max(performancerating) from HR_Analytics) 
 and YearsSinceLastPromotion >= 4;
 
--- 6. Employee who has max and min percentage salary hike.
+-- 24. Employee who has max and min percentage salary hike.
 select * 
 from HR_Analytics
 where percentsalaryhike = (select  min(percentsalaryhike) from HR_Analytics) or
 	  percentsalaryhike = (select  max(percentsalaryhike) from HR_Analytics)
  order by PercentSalaryHike desc;
 
--- 7.Employee working overtime but given min salary hike and are  more than 5year's with company and attrition is 'yes'.
+-- 25.Employee working overtime but given min salary hike and are  more than 5year's with company and attrition is 'yes'.
 select *
 from HR_Analytics
 where overtime = 'yes' and YearsAtCompany >= 5 and 
