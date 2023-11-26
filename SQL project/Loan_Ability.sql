@@ -6,8 +6,8 @@ SELECT gender, COUNT(gender)
 FROM loan 
 GROUP BY gender;
 
--- How many years will it take customer that borrowed above 512450 and credit histroy is 1 assuming each month is 30 days order by loan_amount descending
-SELECT gender, education, self_employed, loan_amount, ROUND((days / 30), 2) AS years, credit_history
+-- How many months will it take customer that borrowed above 512450 and credit histroy is 1 assuming each month is 30 days order by loan_amount descending
+SELECT gender, education, self_employed, loan_amount, ROUND((days / 30), 2) AS months, credit_history
 FROM loan
 WHERE loan_amount > 512450 AND credit_history = 1
 ORDER BY 4 DESC; 
