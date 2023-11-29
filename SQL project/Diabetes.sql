@@ -54,3 +54,9 @@ LIMIT 1;
 -- 10. what the max pregancies months.
 SELECT MAX(Pregnancies) AS max_Pregnancies
 FROM diabetes;
+
+-- 11. Retrive the lowest glucose in the dataset order by age in descening order
+SELECT *
+FROM diabetes
+WHERE glucose = (SELECT min(Glucose) FROM diabetes)
+ORDER BY age DESC;
