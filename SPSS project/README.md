@@ -1,1 +1,1 @@
-# This folder contians all works related with SPSS
+# This folder contains all works related with SPSS
