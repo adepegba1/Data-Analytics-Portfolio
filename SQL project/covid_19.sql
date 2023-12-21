@@ -26,7 +26,7 @@ ORDER BY 2 DESC;
 SELECT TOP 1continent, location country, max(male_smokers) as highest_male_smokers
 FROM CovidDeaths
 GROUP BY continent, location
-ORDER BY 3 desc
+ORDER BY 3 desc;
 
 -- 5. Which countries has the lowest gdp_per_capita in Africa  continent
 SELECT location Country, min(gdp_per_capita) as lowest_gdp_per_capital
@@ -38,7 +38,7 @@ ORDER BY 2;
 -- 6. What is the total_cases in each year
 SELECT year(date) as Year, sum(new_cases) as Total_case
 FROM CovidDeaths
-GROUP BY year(date)
+GROUP BY year(date);
 
 -- 7. When is the new_case in Nigeria
 SELECT TOP 1 date, new_cases, location Country
@@ -50,7 +50,7 @@ ORDER BY date;
 SELECT continent, sum(people_fully_vaccinated) AS total_people_vaccinated
 FROM CovidDeaths
 WHERE continent = 'asia'
-GROUP BY continent 
+GROUP BY continent; 
 
 -- 9. Show continent with the highest number of death
 SELECT continent, max(total_deaths) AS Highest_number_deaths
@@ -87,7 +87,7 @@ FROM(	SELECT location, population, AVG(total_cases) cases
 		GROUP BY location, population
 		HAVING AVG(total_cases) > 0
 	)temp
-ORDER BY 2 DESC
+ORDER BY 2 DESC;
 
 -- 15. Considering the highest value of total cases, which countries have the highest rate of infection in relation to population
 SELECT  location Country, population, maximum,
@@ -97,7 +97,7 @@ FROM(	SELECT location, population, MAX(total_cases) maximum
 		GROUP BY location, population
 		HAVING MAX(total_cases) > 0
 	)temp
-ORDER BY 4 DESC
+ORDER BY 4 DESC;
 
 -- 16. Countries with the highest number of deaths
 SELECT location Country, MAX(total_deaths) Max_number_deaths
