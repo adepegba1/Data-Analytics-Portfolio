@@ -13,4 +13,10 @@
   - **HAVING:** This is used in conjunction with group by. It is also used to filter information based on the group by statement.
   - **ORDER BY:** This assembles the SQL output in either ascending or descending order based on the user descision.
   - **LIMIT:** This will restrict the SQL output to the integer value entered by the user.
+- **AGGREGATE FUNCTIONS:** These are built in functions that perform some task like counting the number of rows, maximum values, summation of the data. All aggregate function are always with bracket opening and closing it without space between the name of the function and bracket.
+  - **COUNT:** This function count the number of rows in the dataset. E.g COUNT(age).
+  - **COUNT(DISTINCT):** This function return the distinct number values in the dataset. E.g COUNT(DISTINCT gender) will return 2.
+  - **SUM:** This function will return the summation of the selected colunm. E.g SUM(age).
+  - **MIN:** This function return the lowest value in the dataset based on the selected colunm field name.
+  - **MAX:** This function return the highest values in the dataset based on the selected colunm field name.
 
