@@ -1,4 +1,4 @@
-# This folder contain all works related to Structrued Query Languange using MySql workbench.
+# This folder contain all works related to Structrued Query Languange using MySql workbench and Microsoft Server
 - **EXTENSION**
   - CSV files extension are the files that will be imported to the database to answer questions on it.
   - BACPAC files extension are database that will be imported to Microsoft SQL server to answer the questions.
@@ -19,4 +19,18 @@
   - **SUM:** This function will return the summation of the selected colunm. E.g SUM(age).
   - **MIN:** This function return the lowest value in the dataset based on the selected colunm field name.
   - **MAX:** This function return the highest values in the dataset based on the selected colunm field name.
+- **STRING FUNCTIONS:** These are SQL built-in functions that allow users to manipulate the character data in various ways. These are:
+  - **CONCAT:** This join two or more string together. E.g SELECT CONCAT('David', ' Joy'); *OUTPUT* David Joy
+  - **LENGTH:** This return the length of the string in integer value. E.g SELECT LENGTH('interactive'); *OUTPUT* 11
+  - **SUBSTRING:** This extract a substring from a larger string. E.g SELECT SUBSTRING('dragging', 1,4); *OUTPUT* drag
+  - **LOWER:** This converts a string to lowercase. E.g SELECT LOWER('DRopPING'); *OUTPUT* dropping
+  - **UPPER:** This converts a string to uppercase. E.g SELECT UPPER('dRopPiNG'); *OUTPUT* DROPPING
+  - **TRIM:** This removes the whitespace or specified character from the beginning or end of a string. E.g SELECT TRIM('       inertcative element'); *OUTPUT* inertcative element
+- **NUMBERS FUNCTIONS** These are also SQL built-in functions that allow users to manipulate the values. These are:
+- **CAST:** This convert datatype from one to another. E.g SELECT CAST(21.5 AS CHAR); *OUTPUT* 21.5
+- **RAND** This generate random decimal numbers for the user based on the max value which is 100 in this examples. SELECT RAND() * 100; *OUTPUT* '63.436587959003255'
+- **ROUND:** This round the decimal number for the user based on the number of decimals needed by the user. E.g SELECT ROUND(63.436587959003255, 2); *OUTPUT* 63.44
+- **FLOOR:** This output the integer part of the numbers. E.g SELECT FLOOR(63.536587959003255); *OUTPUT* 63
+- **CEILING:** This output to the nearest integer for the value. E.g SELECT CEILING(63.1587959003255); *OUTPUT* 64
+ 
 
