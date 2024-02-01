@@ -3,8 +3,8 @@
 - Data is the combination of attributes and values. Attributes are the column head while values are the object in the data
 - Protection in Excel: To protect Excel workbooks at the file level or at the workshhet level. There are three levels of password protection to open a file, password protection for changing the file structure, such as adding, deleting or hiding worksheets.
 
-  |Proctection|Description|
+  |Protection|Description|
   |---|---|
-  |WOOKBOOK|Prevent users from altering the structure of the workbook including adding or deleting sheets and displaying hidden worksheets. You can also prevent users from changing the size of the position of worksheet windows.|
-  |SHEET|Prevents users from making changes to a worksheet. You can specify the elements that users are allowed to change|
-  |CELLS|Cells are locked by default in a protected worksheet. Users cannot edit, insert, delete or formats cells. You can unlock cells that users are able to edit| 
+  |WOOKBOOK|Prevent users from altering the structure of the workbook including adding or deleting sheets and displaying hidden worksheets. You can also prevent users from changing the size of the position of worksheet windows. **STEPS** Open the Excel file you wish to secure. Navigate to **FILE** go to **INFO** move to **PROTECT WORKBOOK** choose **ENCRYPT WITH PASSWORD**. This protection wont allow screenshot of data without the password |
+  |WORKSHEET|Prevents users from making changes to a worksheet. You can specify the elements that users are allowed to change. **STEPS** Open the Excel file you wish to secure. Navigate to **FILE** go to **INFO** move to **PROTECT WORKBOOK** choose **PROTECT CURRENT SHEET**. This can also screenshoot without the passowrd if encrypt with password isnt done on the file|
+  |CELLS|Cells are locked by default in a protected worksheet. Users cannot edit, insert, delete or formats cells. You can unlock cells that users are able to edit. **STEPS** Open the Excel file you wish to secure. Select all the cells in the worksheet with CRTL+A, Right-click and navigate to **FORMAT CELLS**, go to **PROTECTION TAB** and uncheck the **LOCKED**. After that select  the cell you want to lock and right-click and navigate to **FORMAT CELLS**, go to **PROTECTION TAB** and check the **LOCKED**. Then movw to the **REVIEW TAB** and **PROTECT SHEET**, Enter the passowrd to lock the cell you want to lock| 
