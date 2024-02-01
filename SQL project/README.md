@@ -28,7 +28,7 @@
   - **TRIM:** This removes the whitespace or specified character from the beginning or end of a string. E.g SELECT TRIM('       inertcative element'); *OUTPUT* inertcative element
 - **NUMBERS FUNCTIONS** These are also SQL built-in functions that allow users to manipulate the values. These are:
 - **CAST:** This convert datatype from one to another. E.g SELECT CAST(21.5 AS CHAR); *OUTPUT* 21.5
-- **RAND** This generate random decimal numbers for the user based on the max value which is 100 in this examples. SELECT RAND() * 100; *OUTPUT* '63.436587959003255'
+- **RAND** This generate random decimal numbers for the user based on the max value which is 100 in this examples. SELECT RAND() * 100; *OUTPUT* 63.436587959003255
 - **ROUND:** This round the decimal number for the user based on the number of decimals needed by the user. E.g SELECT ROUND(63.436587959003255, 2); *OUTPUT* 63.44
 - **FLOOR:** This output the integer part of the numbers. E.g SELECT FLOOR(63.536587959003255); *OUTPUT* 63
 - **CEILING:** This output to the nearest integer for the value. E.g SELECT CEILING(63.1587959003255); *OUTPUT* 64
