@@ -26,6 +26,7 @@
   - **LOWER:** This converts a string to lowercase. E.g SELECT LOWER('DRopPING'); *OUTPUT* dropping
   - **UPPER:** This converts a string to uppercase. E.g SELECT UPPER('dRopPiNG'); *OUTPUT* DROPPING
   - **TRIM:** This removes the whitespace or specified character from the beginning or end of a string. E.g SELECT TRIM('       inertcative element'); *OUTPUT* inertcative element
+  - **DAYNAME:** This return the day of the date given by the user. E.g SELECT dayname('1995-06-20'); *OUTPUT* Tuesday
 - **NUMBERS FUNCTIONS** These are also SQL built-in functions that allow users to manipulate the values. These are:
 - **CAST:** This convert datatype from one to another. E.g SELECT CAST(21.5 AS CHAR); *OUTPUT* 21.5
 - **RAND** This generate random decimal numbers for the user based on the max value which is 100 in this examples. SELECT RAND() * 100; *OUTPUT* 63.436587959003255
