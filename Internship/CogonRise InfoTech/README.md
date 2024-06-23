@@ -11,6 +11,18 @@ This repository contains all the tasks I completed during my internship at Cogon
 easier for them to modify products according to the specific needs, behaviors and 
 concerns of different types of customers.
 # Skills Used
+- Data analysis and visualization
+- MySQL
+- Excel
+# Challenges and Solutions
+- Challenge: Cleaning and preprocessing the dataset
+- Solution: Used Excel and MySQL to clean and preprocess the data
+# Lessons Learned
+- Importance of data cleaning and preprocessing
+- How to create interactive dashboards using Excel
+# Conclusion
+I gained valuable experience and skills during my internship, and I am proud to showcase my work in this repository.
+
 
 
 
