@@ -5,9 +5,9 @@ This repository contains all the tasks I completed during my internship at Cogon
 - Task 2: Data Analysis using Excel
 - Task 3:
 # Project Description
-- 80 CEREALS: For this project, I clean, transform, and answer questions using MySQL to get insight into the dataset. I have the csv file(raw data), sql script(analysed data) and excel file(data field analysed).
--  EMPLOYEE SALARIES FOR DIFFERENT JOB ROLES: In this project, I used Microsoft Excel to create an interactive dashboard with three slicers. The project is to gain insight into different job titles and salaries in the dataset.
-- CUSTOMER PERSONALITY ANALYSIS: Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it 
+- **80 CEREALS**: For this project, I clean, transform, and answer questions using MySQL to get insight into the dataset. I have the csv file(raw data), sql script(analysed data) and excel file(data field analysed).
+-  **EMPLOYEE SALARIES FOR DIFFERENT JOB ROLES**: In this project, I used Microsoft Excel to create an interactive dashboard with three slicers. The project is to gain insight into different job titles and salaries in the dataset.
+- **CUSTOMER PERSONALITY ANALYSIS**: Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it 
 easier for them to modify products according to the specific needs, behaviors and 
 concerns of different types of customers.
 # Skills Used
