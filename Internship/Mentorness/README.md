@@ -9,5 +9,6 @@ analyze the data, as well as answer specific questions about the dataset.
 - Songs Analysis with Power BI/Tableau: Analyze YouTube song data using Power BI for insights on performance, engagement, and trends.
 Deliverables include interactive dashboards, reports, and recommendations for content optimization.
 Gain hands-on experience in data analysis for YouTube content strategy.
-Quiz on SQL and Power BI Concepts: To assess your grasp of SQL and Power BI concepts and your ability to apply them, a comprehensive 
+
+- Quiz on SQL and Power BI Concepts: To assess your grasp of SQL and Power BI concepts and your ability to apply them, a comprehensive 
 quiz is scheduled for the 30th day of the internship.
