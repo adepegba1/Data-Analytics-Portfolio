@@ -14,3 +14,13 @@
 ![car sales](https://github.com/adepegba1/Data-Analytics-Portfolio/assets/110990491/9cc08522-ae14-4329-8f6a-b35cd2c17220)
 
 ![sales data](https://github.com/adepegba1/Data-Analytics-Portfolio/assets/110990491/be85b68e-7581-4ac0-8736-ffbec289ce24)
+
+![WMT](https://github.com/user-attachments/assets/59fc9e28-1e6d-4e3a-abb2-4f5ea4b932fd)
+
+![Global EV](https://github.com/user-attachments/assets/a1080168-c602-47ff-a639-1b7428ee4870)
+
+![Moibile Phone](https://github.com/user-attachments/assets/80372b5b-01d1-474c-85b8-f2f318abf7dd)
+
+
+
+
